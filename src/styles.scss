@@ -5,4 +5,12 @@
     font-family: "Gill Sans", sans-serif;
 }
 $header-color: rgba(33, 34, 51, 0.9);
+$background-page:#0C0D13;
 $white: #ddd;
+%maxSize{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: $background-page;
+}
