@@ -1,0 +1,13 @@
+<app-header/>
+<section>
+    <div class="container">
+        @for (game of games; track game.name){
+        <div class="gameContainer">
+            <figure>
+                <img src="assets/gamesImage/TicTakToe/{{game.image}}">
+                <figcaption>{{game.name}}</figcaption>
+            </figure>
+        </div>
+    }
+    </div>
+</section>
